@@ -95,7 +95,6 @@ public class UserController {
         String username = login.getName();
         String password = login.getPassword();
 
-        //TODO implement logic to verify user credentials
 		User user = UserServices.getUserById(login.getName());
 		
 

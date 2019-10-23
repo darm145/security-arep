@@ -1,14 +1,14 @@
 app=(function(){
     return{
-        getUsers:function(callback){
+        getUsers:function(){
             console.log("asd");
             $.get("/User",function(data){
                 console.log(data);
                 
 			});
         },
-        test:function(){
-            console.log("asd");
+        login:function(){
+            
         }
 
     }
